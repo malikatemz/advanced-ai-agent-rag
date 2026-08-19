@@ -1,13 +1,16 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[codz]
-*$py.class
+*.pyc
+.env
+venv/
+.venv/
+data/chroma/
+data/documents/*
+!data/documents/.gitkeep
+.pytest_cache/
+*.egg-info/
+.DS_Store
 
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
 build/
 develop-eggs/
 dist/
